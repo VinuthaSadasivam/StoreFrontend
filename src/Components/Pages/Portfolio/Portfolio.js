@@ -14,7 +14,7 @@ const PortFolio = () => {
   async function getItems() {
     try {
       const response = await fetch(
-        "http://93.127.194.16:1337/api/items?populate=image",
+        "https://vinuarts.com/api/items?populate=image",
         { method: "GET" }
       );
 
